@@ -12,9 +12,10 @@ let alfabet = {
 
 
 
-tekst = document.getElementById("tekst");
-pole = document.getElementById("pole");
-but = document.getElementById("guzik");
+let tekst = document.getElementById("tekst");
+let pole = document.getElementById("pole");
+let but = document.getElementById("guzik");
+let tlumaczenie = "";
 
 function tlumacz() {
     tlumaczenie = "";
