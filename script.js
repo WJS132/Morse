@@ -24,8 +24,8 @@ function tlumacz() {
         }
         else{
             tlumaczenie += alfabet[litera.toLowerCase()];
-            pole.textContent = tlumaczenie;
         }
+        pole.textContent = tlumaczenie;
     }
 
 }
