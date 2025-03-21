@@ -20,11 +20,11 @@ function tlumacz() {
     tlumaczenie = "";
     if (!())
     for (const litera of tekst.value) {
-        if (!(litera in alfabet)){
+        if (!(litera.toLowerCase() in alfabet)){
             continue;
         }
         else{
-            tlumaczenie += alfabet[litera];
+            tlumaczenie += alfabet[litera.toLowerCase()];
             pole.textContent = tlumaczenie;
         }
     }
