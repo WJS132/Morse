@@ -18,12 +18,16 @@ but = document.getElementById("guzik");
 
 function tlumacz() {
     tlumaczenie = "";
+    if (!())
     for (const litera of tekst.value) {
-
-        tlumaczenie += alfabet[litera];
-
+        if (!(litera in alfabet)){
+            continue;
+        }
+        else{
+            tlumaczenie += alfabet[litera];
+            pole.textContent = tlumaczenie;
+        }
     }
-    pole.textContent = tlumaczenie;
 
 }
 //but.addEventListener("click", tlumacz);
