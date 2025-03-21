@@ -18,7 +18,6 @@ but = document.getElementById("guzik");
 
 function tlumacz() {
     tlumaczenie = "";
-    if (!())
     for (const litera of tekst.value) {
         if (!(litera.toLowerCase() in alfabet)){
             continue;
