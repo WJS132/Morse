@@ -26,7 +26,8 @@ function tlumacz() {
     pole.textContent = tlumaczenie;
 
 }
-but.addEventListener("click", tlumacz);
+//but.addEventListener("click", tlumacz);
+tekst.addEventListener("input", tlumacz);
 
 
 
