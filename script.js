@@ -15,6 +15,7 @@ let alfabet = {
 let tekst = document.getElementById("tekst");
 let pole = document.getElementById("pole");
 let but = document.getElementById("guzik");
+let reset = document.querySelector("input[type='reset']");
 let tlumaczenie = "";
 
 function tlumacz() {
@@ -30,11 +31,5 @@ function tlumacz() {
     pole.textContent = tlumaczenie;
 
 }
-//but.addEventListener("click", tlumacz);
 tekst.addEventListener("input", tlumacz);
-
-
-
-
-
-
+reset.addEventListener("click", () => {pole.textContent = "";});

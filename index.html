@@ -7,9 +7,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <input type="text" id="tekst" pattern="[A-Za-z0-9ĄĆĘŁŃÓŚŻŹąćęłńóśżź]+">
-    <p id="pole"></p>
-    <button id="guzik">Kliknij</button>
-    <script src="script.js"></script>
+    <form>
+        <h1>Wpisz tekst, który ma zostać przekonwetowany na kod Morse'a</h1>
+        <textarea id="tekst" maxlength="144"></textarea>
+        <p id="pole"></p>
+        <input type="reset" value="Reset">
+        <script src="script.js"></script>
+    </form>
+    
 </body>
 </html>
