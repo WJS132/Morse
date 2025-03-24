@@ -33,6 +33,3 @@ function tlumacz() {
 }
 tekst.addEventListener("input", tlumacz);
 reset.addEventListener("click", () => {pole.textContent = "";});
-window.onload = function() {
-  document.body.classList.add('loaded');
-};
