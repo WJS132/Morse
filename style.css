@@ -10,7 +10,10 @@ body{
     height: 100vh;
     font-family: sans-serif;
     letter-spacing: 1px;
+    visibility: hidden;
 }
+body.loaded{
+    visibility: visible;
 form{
     display: flex;
     flex-direction: column;
