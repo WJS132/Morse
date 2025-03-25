@@ -52,7 +52,7 @@ input[type="reset"]{
     border-radius: 4px;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1050px) {
     body {
         background-image: url("srodek.jpg");
     }
@@ -67,7 +67,7 @@ input[type="reset"]{
     }
 }
 
-@media (min-width: 951px) {
+@media (min-width: 1051px) {
     body {
         background-image: url("komputer.jpg");
     }
